@@ -23,8 +23,6 @@ int Click;
 //Servo Angle
 int Ang=0;
 
-//this is a test
-
 void setup() {
   // put your setup code here, to run once:
   //Stepper Motor Pins
