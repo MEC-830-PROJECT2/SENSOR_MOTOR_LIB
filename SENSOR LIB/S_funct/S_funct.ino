@@ -83,7 +83,7 @@ void Dist(){
 
   duration=pulseIn(echoPin,HIGH);
   distance=duration*0.034/2;
-  Serial.print(distance);
+  Serial.println(distance);
   if (distance ==1196){
     distance=0;
     
