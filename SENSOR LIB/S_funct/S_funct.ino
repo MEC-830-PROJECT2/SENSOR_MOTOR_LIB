@@ -38,6 +38,9 @@ void setup() {
   //Servo Pins
   servo.attach(9);
   servo.write(0);
+  
+  //Intialize Serial
+  Serial.begin(9600);
 }
 
 void loop() {
